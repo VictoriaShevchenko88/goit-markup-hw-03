@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav class="menu">
-          <a href="./index.html" class="logo">Web<span class="studio">Studio</span> </a>
+    <header class="header">
+        <div class="container header-container">
+    <nav class="menu">
+        <a href="./index.html" class="logo">Web<span class="studio">Studio</span> </a>
           <ul class="menu-elements">
             <li><a href="./index.html" class="menu-nav-index">Studio</a> </li>
             <li><a href="" class="menu-nav-index">Portfolio</a> </li>
@@ -30,94 +32,122 @@
             <li><a href="tel:+110001111111" class="email-telefon">+11 (000) 111-11-11 </a></li>
           </ul>
         </address>
+    </div>
+
       </header>
 <!--Section1-->
     <main>
         <section class="box-hero-image">
+            <div class="container">
             <h1 class="hero-image">Effective Solutions for Your Business</h1>
             <button type="button" name="Order Service" class="botton">Order Service</button>
-          </section>   
+        </div>
+        </section>   
  <!--Section2-->        
-              <section>
-             <h2 class="Accessibility">Accessibility</h2>
-             <ul>
-                    <li>
+              <section class="feature">
+                <div class="container">
+             <h2 class="visually-hidden">Accessibility</h2>
+             <ul class="feature-list">
+                    <li class="feature-item">
                      <h3 class="main-menu-h">Strategy</h3>
                      <p class="text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                   </li>
-                 <li>
+                 <li class="feature-item">
                      <h3 class="main-menu-h">Punctuality</h3>
                   <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-              </li>
-             <li>
+              </li >
+             <li class="feature-item">
                 <h3 class="main-menu-h">Diligence</h3>
                  <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
-             <li>
+             <li class="feature-item">
                 <h3 class="main-menu-h">Technologies</h3>
              <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
             </li>
             </ul>
+        </div>
         </section> 
         <!--Section3-->  
              <section class="main-team">
+                <div class="container">
             <h2 class="main-team-title">Our Team</h2>      
-                  <ul>
+                  <ul class="team-list">
                 <li class="main-image"> 
                     <img src="./images/img_1.jpg" width="264" alt="Mark Guerrero">
+                    <div class="team">
                     <h3 class="main-name">Mark Guerrero</h3>
                     <p class="main_text">Product Designer</p>
-                </li>         
+                </div>
+                          </li>         
                        <li class="main-image">
                     <img src="./images/img_2.jpg" width="264" alt="Tom Ford">
+                    <div class="team">
                     <h3 class="main-name">Tom Ford</h3>
                     <p class="main_text">Frontend Developer</p>
+                    </div>
                 </li>      
                           <li class="main-image">
                     <img src="./images/img_3.jpg" width="264" alt="Camila Garcia">
+                    <div class="team">
                     <h3 class="main-name">Camila Garcia</h3>
                     <p class="main_text">Marketing</p>
+                    </div>
                 </li>         
                        <li class="main-image">
                     <img src="./images/img_4.jpg" width="264" alt="Daniel Wilson">
+                    <div class="team">
                     <h3 class="main-name">Daniel Wilson</h3>
                     <p class="main_text">UI Designer</p>
+                    </div>
                 </li>
             </ul>        
           </section>  
           <!---Section4-->
-          <section>
+          <section class="section-portfolio">
+            <div class="container">
             <h2 class="our-portfolio">Our Portfolio</h2>
-            <ul>
-                <li>
+            <ul class="project-list">
+                <li class="project-list-img">
                     <img src="./images/img_5.jpg" alt="Banking App" width="360"/>
+                    <div class="images-subtitle">
                     <h3 class="our_port_title">Banking App</h3>
                     <p class="out_port_content">App</p>
+                </div>
                 </li>
-                <li>
+                <li class="project-list-img">
                     <img src="./images/img_6.jpg" alt="Cashless Payment" width="360"/>
+                    <div class="images-subtitle">
                     <h3 class="our_port_title">Cashless Payment</h3>
                     <p class="out_port_content">Marketing</p>
+                </div>
                 </li>
-                <li>
+                <li class="project-list-img">
                     <img src="./images/img_7.jpg" alt="Meditation Appt" width="360"/>
+                    <div class="images-subtitle">
                     <h3 class="our_port_title">Meditation App</h3>
                     <p class="out_port_content">App</p>
+                </div>
                 </li>
-                <li>
+                <li class="project-list-img">
                     <img src="./images/img_8.jpg" alt="Taxi Service" width="360"/>
+                    <div class="images-subtitle">
                     <h3 class="our_port_title">Taxi Service</h3>
                     <p class="out_port_content">Marketing</p>
+                </div>
                 </li>
-                <li>
+                <li class="project-list-img">
                     <img src="./images/img_9.jpg" alt="Screen Illustrations" width="360"/>
+                    <div class="images-subtitle">
                     <h3 class="our_port_title">Screen Illustrations</h3>
                     <p class="out_port_content">Design</p>
+                </div>
                 </li>
-                <li>
+                <li class="project-list-img">
                     <img src="./images/img_10.jpg" alt="Online Courses" width="360"/>
+                    <div class="images-subtitle">
                     <h3 class="our_port_title">Online Courses</h3>
                     <p class="out_port_content">Marketing</p>
+                </div>
                 </li>
             </ul>
           </section>
@@ -125,8 +155,10 @@
           </main>  
           <!--Footer-->
             <footer class="footer">
-        <a href="./index.html" class="logo">Web<span class="studio-footer">Studio</span></a>
+                <div class="container">
+        <a class="logo-footer" href="./index.html" class="logo">Web<span class="studio-footer">Studio</span></a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
     </footer> 
      </body>
 </html>
